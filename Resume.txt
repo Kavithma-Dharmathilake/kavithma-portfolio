@@ -1,0 +1,222 @@
+Here is the text from your CV, structured in a clean, single-column format. You can copy and paste this directly into a Word document (`.docx`) or a text editor to create an ATS-friendly version.
+
+---
+
+**Kavithma Dharmathilake**
+**Software Engineer**
+**Phone:** +94 70 253 4675
+**Email:** kavithmadharmathilake@gmail.com
+**LinkedIn:** [linkedin.com/in/kavithma-dharmathilake](https://www.google.com/search?q=https://linkedin.com/in/kavithma-dharmathilake)
+**GitHub:** [github.com/Kavithma-Dharmathilake](https://github.com/Kavithma-Dharmathilake)
+
+**PROFILE**
+Final-year IT student and aspiring software engineer with hands-on experience in web, mobile, and VR-based applications, specializing in full-stack development, AI/ML integration, and scalable system design. 
+
+**TECHNICAL SKILLS**
+
+* 
+**Frontend:** ReactJS, Angular, HTML, CSS 
+
+
+* 
+**Backend:** NodeJS, Python, Java, PHP 
+
+
+* 
+**Database:** MySQL, MariaDB, MongoDB, Firebase, Oracle 
+
+
+* 
+**Mobile:** Kotlin, React Native 
+
+
+* 
+**Other:** Machine Learning, C++, Git, Unity 
+
+
+
+**PROFESSIONAL EXPERIENCE**
+
+**Trainee Software Engineer** | 99x *Nov 2024 – May 2025* 
+
+* 
+**Technologies:** Machine Learning, Computer Vision, AI Agents, .NET, Angular, Power Platforms 
+
+
+* Gained 6 months of hands-on experience in customer-facing and internal projects focused on Machine Learning and AI solutions. 
+
+
+* Developed an image processing solution using neural networks for a customer-based project. 
+
+
+* Built internal automation workflows using Microsoft Power Apps and Power Automate to optimize CV-building processes. 
+
+
+* Designed and implemented AI agent-based systems. 
+
+
+
+**PROJECTS**
+
+**HUMOR - Support Platform for Virtual Meeting (Research @ UCSC)** 
+
+* **Technologies:** ReactJS, MongoDB, FastAPI, Computer Vision, ML
+* Designed a final-year research project analyzing participant multimodal laughter using Machine Learning. 
+
+
+* Developed a system to visualize audience engagement in real-time via personalized avatar-based feedback for speakers. 
+
+
+* Focused on full-stack implementation and integration of ML-based laughter classification. 
+
+
+
+**JobRecVR - Recruitment Platform based on Virtual Reality (Research @ SLIIT)** 
+
+* 
+**Technologies:** Unity, LLM Fine-tuning, ReactJS, FastAPI, C#, 3D Animation, Ready Player Me, Mixamo 
+
+
+* Developed a VR platform to evaluate software engineers' soft skills beyond traditional hiring methods. 
+
+
+* Fine-tuned an LLM for dynamic interview question generation and personalized VR interview scenarios. 
+
+
+* Designed candidate-specific virtual scenarios based on CV data. 
+
+
+
+**Unicat - Platform for Course Management** 
+
+* 
+**Technologies:** ReactJS, NodeJS, GCP, Docker, Kubernetes 
+
+
+* Built a microservices-based system enabling course purchase, study tracking, and instructor progress management. 
+
+
+
+**RoadEye - Online Traffic Violation Reporting Platform** 
+
+* 
+**Technologies:** Angular, Firebase, MariaDB, FastAPI, GCP 
+
+
+* Developed a web platform for drivers to submit traffic violation videos and monitor vehicles. 
+
+
+
+**ZeroWaste - Platform for Waste Management** 
+
+* 
+**Technologies:** React Native, Firebase 
+
+
+* Developed features for waste pickups, volunteering, eco-product trading, and community engagement. 
+
+
+
+**PlanitEasy - Event Management System** 
+
+* 
+**Technologies:** PHP, HTML, CSS, MySQL 
+
+
+* Built a platform for planning events, managing vendors, budgets, and quotations. 
+
+
+
+**Business Management Application** 
+
+* 
+**Technologies:** Kotlin, Firebase 
+
+
+* Created a mobile app for small business owners to track products, income, expenses, and customers. 
+
+
+
+**Unicorn - HRMS** 
+
+* 
+**Technologies:** MERN stack 
+
+
+* Contributed to developing a Goal Management System supporting employee soft skills and career growth. 
+
+
+
+**SwiftPay - Prototype** 
+
+* 
+**Tool:** Figma 
+
+
+* Designed a prototype for a cashless payment app; won Pearl Hack 2.0 championship. 
+
+
+
+**EDUCATION**
+
+**BSc (Hons) in Information Systems** 
+*University of Colombo School of Computing (UCSC)*
+*May 2022 – Present* | CGPA: 3.71 
+
+**BSc (Hons) in Information Technology (Sp. Software Engineering)** 
+*Sri Lanka Institute of Information Technology (SLIIT)*
+*June 2021 – June 2025* | CGPA: 3.39 (Second Upper Division) 
+
+**ACHIEVEMENTS**
+
+* 
+**Faculty Award for Best Performing Students:** University of Colombo School of Computing (June 2022 - Nov 2025) 
+
+
+* 
+**Dean List Awards:** Sri Lanka Institute of Information Technology (June 2022, Aug 2023, June 2024) 
+
+
+* 
+**Winner:** PearlHack 2.0, Sabaragamuwa University of Sri Lanka 
+
+
+* 
+**Semi-Finalist:** Idealize 2023, University of Moratuwa 
+
+
+
+**RESEARCH PUBLICATIONS**
+
+* 
+**Personality and Soft Skills Analysis System for Job Recruitment Using VR Technology** - ICECET2025 (IEEE) 
+
+
+* 
+**CodePlex:** Software Complexity Measuring Tool based on ECB Measure 
+
+
+
+**CERTIFICATIONS**
+
+* 
+**Leadership Academy:** Guiding Leadership & Outreach (GLO) Program by Sysco LABS 
+
+
+* 
+**Certificate of Participation:** InspiHer{Tech} V2.0, IEEE WIE Student Branch Affinity Group of SLTC 
+
+
+
+**SOFT SKILLS**
+Fast Learning, Problem Solving, Teamwork, Time Management, Leadership, Effective Communication, Critical Thinking 
+
+**LANGUAGES**
+Sinhala (Fluent), English (Fluent) 
+
+**REFERENCES**
+
+* Mr. Pubudu Liyanage - Senior Lecturer, UCSC (+94 77 778 8361 | pdl@ucsc.cmb.ac.lk) 
+
+
+* Ms. Gayani Rupasinghe - Lecturer, UCSC (+94 71 890 8607 | gsr@ucsc.cmb.ac.lk)

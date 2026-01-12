@@ -1,0 +1,111 @@
+.achievements {
+  padding: 100px 20px;
+}
+
+.achievements-section {
+  margin-bottom: 4rem;
+}
+
+.subsection-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: var(--text-primary);
+  text-align: center;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.achievement-card {
+  text-align: center;
+  padding: 2rem;
+}
+
+.achievement-icon {
+  font-size: 3rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.achievement-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.achievement-org {
+  color: var(--accent);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.achievement-period {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+}
+
+.publications-list,
+.certifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.publication-card,
+.certification-card {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem;
+  align-items: flex-start;
+}
+
+.publication-icon,
+.certification-icon {
+  font-size: 2rem;
+  color: var(--accent);
+  flex-shrink: 0;
+  margin-top: 0.25rem;
+}
+
+.publication-content,
+.certification-content {
+  flex: 1;
+}
+
+.publication-title,
+.certification-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.publication-venue,
+.certification-org {
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-card,
+  .certification-card {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+}
+
