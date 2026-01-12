@@ -1,5 +1,9 @@
 .contact {
   padding: 100px 20px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-intro {
@@ -155,13 +159,56 @@
 }
 
 @media (max-width: 768px) {
+  .contact {
+    padding: 100px 1rem 60px;
+  }
+
+  .contact-content {
+    gap: 2rem;
+  }
+
   .contact-item {
     padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .contact-icon-wrapper {
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  .contact-icon {
+    font-size: 1.2rem;
+  }
+
+  .contact-value {
+    font-size: 0.9rem;
+    word-break: break-word;
+  }
+
+  .contact-label {
+    font-size: 0.8rem;
+  }
+
+  .contact-methods {
+    gap: 1rem;
+  }
+
+  .contact-extra {
+    gap: 1.5rem;
+  }
+
+  .extra-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .skill-tag {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
   }
 }
 
