@@ -55,7 +55,7 @@ const Hero = () => {
           </div>
           <div className="hero-image">
             <div className="image-wrapper">
-              <img src="/profileimg.jpg" alt="Kavithma Dharmathilake" />
+              <img src="profileimg.jpg" alt="Kavithma Dharmathilake" />
               <div className="image-glow"></div>
             </div>
           </div>
