@@ -10,6 +10,16 @@
   transition: all 0.3s ease;
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    overflow: visible;
+  }
+  
+  .nav-container {
+    overflow: visible;
+  }
+}
+
 .navbar.scrolled {
   background: rgba(10, 10, 10, 0.95);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -90,15 +100,12 @@
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    overflow-x: hidden;
-  }
-
   .nav-container {
     padding: 0.75rem 1rem;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
+    position: relative;
   }
 
   .nav-logo {
@@ -115,34 +122,38 @@
     padding: 0.5rem;
     margin: 0;
     flex-shrink: 0;
-    z-index: 1001;
+    z-index: 1002;
+    position: relative;
   }
 
   .nav-menu {
-    position: absolute;
-    top: 100%;
+    position: fixed;
+    top: 70px;
     left: 0;
     right: 0;
-    background: rgba(10, 10, 10, 0.95);
+    width: 100%;
+    background: rgba(10, 10, 10, 0.98);
+    backdrop-filter: blur(20px);
     flex-direction: column;
     gap: 0.5rem;
-    padding: 0 1rem;
+    padding: 1.5rem 1rem;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
     pointer-events: none;
-    transform: translateY(-10px);
+    transform: translateY(-20px);
     transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
     font-size: 0.95rem;
+    z-index: 1001;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
   }
 
   .nav-menu.open {
-    max-height: 500px;
+    max-height: 100vh;
     opacity: 1;
     pointer-events: auto;
     transform: translateY(0);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
 
   .nav-menu li {
@@ -153,6 +164,11 @@
     display: block;
     padding: 0.75rem 0;
     width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .nav-menu a:last-child {
+    border-bottom: none;
   }
 }
 
