@@ -1,16 +1,28 @@
 import { useState, useEffect } from 'react'
-import { FaCode } from 'react-icons/fa'
+import { FaCode, FaBars, FaTimes } from 'react-icons/fa'
 import './Navbar.css'
 
 const Navbar = ({ activeSection }) => {
   const [isScrolled, setIsScrolled] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50)
     }
+
+    const handleResize = () => {
+      if (window.innerWidth > 768) {
+        setIsMenuOpen(false)
+      }
+    }
+
     window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
+    window.addEventListener('resize', handleResize)
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      window.removeEventListener('resize', handleResize)
+    }
   }, [])
 
   const navItems = [
@@ -38,7 +50,17 @@ const Navbar = ({ activeSection }) => {
           <FaCode className="logo-icon" />
           <span>KD</span>
         </div>
-        <ul className="nav-menu">
+
+        <button
+          className="menu-toggle"
+          onClick={() => setIsMenuOpen((prev) => !prev)}
+          aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={isMenuOpen}
+        >
+          {isMenuOpen ? <FaTimes /> : <FaBars />}
+        </button>
+
+        <ul className={`nav-menu ${isMenuOpen ? 'open' : ''}`}>
           {navItems.map((item) => (
             <li key={item.id}>
               <a
@@ -46,6 +68,7 @@ const Navbar = ({ activeSection }) => {
                 onClick={(e) => {
                   e.preventDefault()
                   scrollToSection(item.id)
+                  setIsMenuOpen(false)
                 }}
                 className={activeSection === item.id ? 'active' : ''}
               >
